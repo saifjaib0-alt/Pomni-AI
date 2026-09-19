@@ -24,11 +24,11 @@ const content = {
 };
 
 return conn.sendMessage(m.chat, { 
-    text: `*👨🏻‍⚖️ مبروك الطلاق تمني لكم كل خير 👩🏻‍⚖️*
+    text: '*مبروك الطلاق 👩🏻‍⚖️*
 
 *تعلن المحكمه طلاق العريس [ @${content.user1.split('@')[0]} ] من العروسه [ @${content.user2.split('@')[0]} ] 
 
-> *ادفع النفقه بقي ياحبيبي 🌹*`, 
+> *خلص النفقة اولد قلبي 🌹*`, 
     mentions: [content.user1, content.user2] 
 }, { quoted: m });
 };
