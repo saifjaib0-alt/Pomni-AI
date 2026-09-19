@@ -20,7 +20,7 @@ const handler = async (m, { conn }) => {
     (db.groups[m.chat].warnings[id] || 0) + 1;
 
   await conn.sendMessage(m.chat, {
-    text: `⚠️ تم إعطاء إنذار
+    text: `⚠️ تم إعطاء إنذار مرة جاية نباني طبنمك
 
 👤: @${id.split("@")[0]}
 📊 عدد الإنذارات: ${warnCount}`,
@@ -38,7 +38,7 @@ handler.before = async (m, { conn }) => {
 
   if (g.warnings[user] >= 3) {
     await conn.sendMessage(m.chat, {
-      text: `🚫 @${user.split("@")[0]} انت خالفت القوانين، دلوقتي هنطردك`,
+      text: `🚫 @${user.split("@")[0]}  انت خالفت القوانين،  دلوقتي هنطردك اولد القحبة`,
       mentions: [user]
     }, { quoted: global.reply_status });
 
