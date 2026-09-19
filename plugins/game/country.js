@@ -23,7 +23,7 @@ async function handler(m, { conn }) {
             if (global.gameActive[m.chat]) {
                 const answer = global.gameActive[m.chat].answer;
                 delete global.gameActive[m.chat];
-                conn.sendMessage(m.chat, { text: `⏰ *أنتهي الوقت* الإجابة هي : *${answer}*` });
+                conn.sendMessage(m.chat, { text: `⏰ * أنتهي الوقت* الإجابة هي اولد الهاريبة: *${answer}*` });
             }
         }, 30000)
     };
@@ -52,7 +52,7 @@ handler.before = async (m, { conn }) => {
         return true;
     }
     
-    await m.reply("*❌ إجابة غلط رد جرب تاني*");
+    await m.reply("*❌ إجابة غلط اولد المتقوبة رد جرب تاني*");
     return true;
 };
 
