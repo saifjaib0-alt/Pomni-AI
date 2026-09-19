@@ -18,10 +18,10 @@ switch (command) {
         break;
         
     case "بيكرهني":
-        responseText = `*😡 اكتر واحد بيكرهك 😡*\n\n*المستخدم [ @${randomUser.split('@')[0]} ]* \n\n> *نسبة كرهه ليك: ${percentage}%* 🌚`;
+        responseText = `*😡  اكتر واحد بيكره طبنمك اوجه زب😡*\n\n*المستخدم [ @${randomUser.split('@')[0]} ]* \n\n> *نسبة كرهه ليك: ${percentage}%* 🌚`;
         break;
         
-    case "بيكراش":
+    case "بيكرراش":
         responseText = `*💘 اكتشفت مين معجب فيك 💘*\n\n*المستخدم [ @${randomUser.split('@')[0]} ] \n\n> نسبة اعجابه بيك: *${percentage}%* 😍`;
         break;
         
