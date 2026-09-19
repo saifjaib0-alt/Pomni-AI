@@ -6,7 +6,7 @@ async function test(m, { conn, bot, text }) {
     const arr = res.data;
     
     if (!arr || arr.length === 0) {
-      return m.reply("*⚠️ ~ لا توجد نتائج للبحث ~*");
+      return m.reply("*⚠️ ~ لا توجد نتائج للبحث سير تحوا قبل منحويك ~*");
     }
     
     const start = Math.floor(Math.random() * (arr.length - 10));
