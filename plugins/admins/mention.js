@@ -12,7 +12,7 @@ messageText += `🗃️│ الـاســم: ${metadata.subject}\n`;
 messageText += `📯│ تـاريـخ: ${new Date().toLocaleDateString('ar-EG')}\n\n`;
 
 
-messageText += `↓👑 *الـمـشـرفـيـن (${shuffledAdmins.length})* 👑↓\n`;
+messageText += `↓👑 *الـمـشـرفـيـن (مستقبل فيمبوي (${shuffledAdmins.length})* 👑↓\n`;
 messageText += "```───────────────────\n";
 shuffledAdmins.forEach((admin, index) => {
     messageText += `🇩🇪│ ${index + 1}. @${admin.split('@')[0]}\n`;
