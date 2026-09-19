@@ -24,7 +24,7 @@ const content = {
 };
 
 return conn.sendMessage(m.chat, { 
-    text: `*🥳 مبروك الزواج تمني لكم كل خير 🥳*
+    text: `*🥳 (lah yfr9 tbnmkm) مبروك الزواج تمني لكم كل خير 🥳*
 
 *🤵🏻 العريس:* @${content.user1.split('@')[0]} 
 *🌹 نسبة حبه للعروسه:* ${content.num1}
